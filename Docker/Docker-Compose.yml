@@ -1,0 +1,38 @@
+version: "3.7"
+
+services:
+  redis:
+    image: redis:latest
+    container_name: ${REDIS_HOST}
+    restart: on-failure
+    command: 
+      - redis-server
+    environment:
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_PORT=${REDIS_PORT}
+    ports:
+      - ${REDIS_PORT}:${REDIS_PORT}
+
+  database:
+    image: postgres:15
+    container_name: ${POSTGRES_HOST}
+    ports:
+      - ${POSTGRES_PORT}:${POSTGRES_PORT}
+    restart: on-failure
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+
+  bot:
+    build:
+      dockerfile: ./Docker/MouseyBot.dockerfile
+    command: sh -c "pybabel compile -d ./Mousey/Locales -D bot && python -m Mousey to_update_telegram_profile"
+    restart: always
+    depends_on:
+      - redis
+      - database
+
+volumes:
+  pgdata:
+

@@ -1,0 +1,8 @@
+loguru
+redis
+asyncpg
+sqlalchemy
+aiogram
+Babel
+python-dotenv
+

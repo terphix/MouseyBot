@@ -1,0 +1,152 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-11-07 19:34+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: Mousey/Bot/Handlers/Admin/menu.py:15 Mousey/Bot/Handlers/Admin/menu.py:28
+msgid "Админ меню"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/menu.py:38
+msgid "Список админ команд"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:25
+msgid "Админ меню новости, информация о новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:27
+msgid "Админ меню новости, профиль скрыт"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:29
+msgid "Админ меню новости, контакт не указан"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:30
+msgid "Админ меню новости непрочитанных нет"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:41
+msgid "Админ меню новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:51
+msgid "Функция в разработке"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:87
+msgid "Новость просмотрена"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:98
+msgid "Админ новости, автор новости забанен"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:99
+msgid "Админ новости, автор новости уже был забанен"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Admin/news.py:107
+msgid "Админ новости, нельзя забанить администратора"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/menu.py:23
+msgid "Полное главное меню"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/menu.py:41
+msgid "Краткое главное меню"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/menu.py:53
+msgid "Полезная информация"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/menu.py:63
+msgid "Информация о боте"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:28
+msgid "Текст для новости отсутствует"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:29
+msgid "Контакты для новости отсутствуют"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:32
+msgid "Шаблон для вставки текста новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:37
+msgid "Шаблон для вставки контактов новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:41
+msgid "Шаблон для формы отправки новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:85
+msgid "Неправильная форма данных для новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:97
+msgid "Новостное меню"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:109
+msgid "Шаблон для статистики новостей"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:136
+msgid "Ввести текст для новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:151
+msgid "Ввести контакты для новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:183
+msgid "Новость успешно отправлена"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:190
+msgid "Отсутствует текст для новости"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:191
+msgid "Вы забанены"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:192
+msgid "Превышен лимит непрочитанных новостей"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/news.py:205
+msgid "Шаблон новость не отправлена"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/utils.py:16
+msgid "Информация про набор стикеров"
+msgstr ""
+
+#: Mousey/Bot/Handlers/Private/utils.py:31
+#: Mousey/Bot/Handlers/Private/utils.py:42
+msgid "Отмена выполнения текущей операции"
+msgstr ""
+

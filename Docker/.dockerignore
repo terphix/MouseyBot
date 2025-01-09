@@ -1,0 +1,9 @@
+# Кеш python
+__pycache__/
+
+# Логи
+*.log
+
+# Nix-файлы
+*.nix
+
