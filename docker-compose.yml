@@ -26,7 +26,7 @@ services:
 
   bot:
     build:
-      dockerfile: ./Docker/MouseyBot.dockerfile
+      dockerfile: ./Dockerfile
     command: sh -c "pybabel compile -d ./Mousey/Locales -D bot && python -m Mousey to_update_telegram_profile"
     restart: always
     depends_on:

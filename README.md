@@ -26,9 +26,10 @@
  10. MAIN_ADMIN_ID = (Telegram ID главного админа)
 
 
-## Как развернуть с помощью Docker (Docker-compose)
-- Необходима версия Docker-compose 2.27.0 (на других может работать нестабильно)
+## Как развернуть с помощью Podman (podman-compose)
+- Необходима версия podman 5.2.3
+- Необходима версия podman-compose 1.2.0
  1. Скопируйте проект
  2. Заполните .env-файл
- 3. Выполнить: docker-compose --project-directory ./ --env-file ./.env -f ./Docker/Docker-Compose.yml up
+ 3. Выполнить: podman-compose --env-file ./.env -f ./docker-compose.yml up
 
